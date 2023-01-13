@@ -1,9 +1,0 @@
-             severity: trivial
-	     id:1
-	     environment: Win 11 Pro, Yandex 22.11.5.715
-	     title: Отсутствует флаг Испании рядом с [Decrypt en Español] в dropdown menu
-	     precondition: 1.Открыт сайт https://decrypt.co/
-	     steps: 1. Обратить внимание на [Decrypt en Español] в dropdown menu
-	     expected result: Отображается флаг Испании рядом с [Decrypt en Español]
-	     actual result:Не отображается флаг Испании рядом с [Decrypt en Español]
-	     attachment: link
