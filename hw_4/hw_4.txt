@@ -4,7 +4,7 @@ git branch Postman
 - Jmeter
 git branch Jmeter
 - CheckLists
-git branch Cheklists
+git branch Checklists
 - Bug_Reports
 git branch Bug_Reports
 - SQL
