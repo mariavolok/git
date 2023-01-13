@@ -31,6 +31,13 @@ git merge Bug_Reports
 6. Запушить main на внешний репозиторий.
 git push
 7. В ветке CheckLists набросать структуру чек листа.
+git checkout Checklists
+cat >> Checklists.txt
 8. Запушить структуру на внешний репозиторий
+git add .
+git commit -m "add"
+git push origin Checklists
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 10. Синхронизировать Внешнюю и Локальную ветки Main
+git pull
+
