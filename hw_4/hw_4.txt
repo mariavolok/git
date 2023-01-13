@@ -19,7 +19,12 @@ git add .
 git commit -m "new task"
 git push
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+git checkout Bug_Reports
+cat >> Bug_Reports.txt
 4. Запушить структуру багрепорта на внешний репозиторий
+git add .
+git commit -m "bug_reports"
+git push origin Bug_Reports
 5. Вмержить ветку Bag Reports в Main
 6. Запушить main на внешний репозиторий.
 7. В ветке CheckLists набросать структуру чек листа.
